@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Human Posture Analysis Demo
 
 A real-time human posture detection and classification system using YOLOv8 Pose estimation. This application can analyze human postures from images, video files, or live webcam feeds, and automatically logs the detected postures to a CSV file.
@@ -245,4 +246,30 @@ This project is for educational and research purposes.
 
 - YOLOv8 by Ultralytics
 - OpenCV community
+=======
+# 🧠 Human Posture Analysis using Deep Learning
+
+This project implements a **Human Posture Recognition System** capable of detecting and classifying human postures such as **standing, sitting, walking, running, bending, lying, and stretching** using **deep learning models** (CNN + LSTM).
+
+It supports **three types of input sources**:
+- 🖼️ Image
+- 🎥 Video
+- 📷 Live Camera Stream
+
+---
+
+## 🚀 Features
+
+- Real-time human posture detection
+- Uses YOLOv8-Pose for keypoint extraction (CNN-based)
+- LSTM / BiLSTM models for temporal pattern recognition
+- Works on image, video, or webcam input
+- Easily extendable with new posture classes or datasets
+
+---
+
+## 🧩 System Architecture
+
+The project uses a **hybrid CNN–LSTM architecture**:
+>>>>>>> a0dd61229e3f621841fb762e886e549b2e68a233
 
